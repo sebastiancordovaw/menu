@@ -1,0 +1,482 @@
+
+<div class="p-5">
+
+  <div class="grid grid-cols-2 cafeteria">
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Cafeteria</h1>
+          <ul>
+          {{#each productos.cafeteria}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div> 
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="">
+      <img class="categoria" width="90%" src="static/img/categorias/cafeteria.jpg" alt="">
+    </div>
+  </div>  
+  
+  
+  <div class="grid grid-cols-2 hamburguesas mt-5">
+    <div>
+       <img class="simbolo-left" src="static/img/simbolos.png" alt="">
+       <img class="categoria right" width="90%" src="static/img/categorias/hamburguesas.jpg" alt="">
+    </div>
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Hamburguesas</h1>
+          <ul>
+          {{#each productos.hamburguesas}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}} </div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 chorrillanas mt-5">
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Chorrillanas</h1>
+          <ul>
+          {{#each productos.chorrillanas}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="">
+      <img class="categoria" width="90%" src="static/img/categorias/chorrillanas.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 papasfritas mt-5">
+
+    <div>
+      <img class="simbolo-left" src="static/img/simbolos.png" alt="">
+      <img class="categoria right" width="90%" src="static/img/categorias/papasfritas.jpg" alt="">
+    </div>
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Papas Fritas</h1>
+          <ul>
+          {{#each productos.papas_fritas}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    
+  </div>
+
+
+  <div class="grid grid-cols-2 tablas mt-5">
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Tablas</h1>
+          <ul>
+          {{#each productos.tablas}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="" style="right:36px;">
+      <img class="categoria" width="60%" src="static/img/categorias/tablas.png" alt="">
+    </div>
+ 
+  </div>
+
+  <div class="grid grid-cols-2 picoteo mt-5">
+    <div>
+      
+    </div>
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Picoteo</h1>
+          <ul>
+          {{#each productos.tablas_de_picoteo}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    
+ 
+  </div>
+
+
+   <div class="grid grid-cols-2 pizzasmedianas mt-5">
+   
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Pizzas medianas</h1>
+          <ul>
+          {{#each productos.pizzas_medianas}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="">
+      <img class="categoria" width="90%" src="static/img/categorias/pizzas_medianas.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 ceviche mt-5">
+     <div>
+      <img class="simbolo-left" src="static/img/simbolos.png" alt=""   style="left: 30px;">
+      <img class="categoria" width="70%" src="static/img/categorias/ceviche.jpg" alt="">
+    </div>
+
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Ceviche</h1>
+          <ul>
+          {{#each productos.ceviche}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+
+   
+  </div>
+
+
+  <div class="grid grid-cols-2 promocopete mt-5">
+    
+    <div>
+        <h1 class="text-2xl font-bold mb-3">PROMOS COPETE 21:00</h1>
+          <ul>
+          {{#each productos.promos_copete_21:00}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="" style="right: 30px; margin-top:-10px;">
+      <img class="categoria" width="70%" src="static/img/categorias/promo_copete.jpg" alt="">
+    </div>
+  </div>
+
+
+  <div class="tragos"></div>
+  <div class="grid grid-cols-2 mojitos mt-5">
+    <div>
+      <img class="simbolo-left" src="static/img/simbolos.png" alt="">
+      <img class="categoria right" width="90%" src="static/img/categorias/mojitos.jpg" alt="">
+    </div>
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Mojitos</h1>
+          <ul>
+          {{#each productos.mojitos}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+   
+  </div>
+
+
+  <div class="grid grid-cols-2 cervezas mt-5">
+    
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Cervezas</h1>
+          <ul>
+          {{#each productos.cervezas}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="" style="right: 25px;">
+      <img class="categoria" width="90%" src="static/img/categorias/cervezas.jpg" alt="">
+    </div>
+  </div>
+
+
+  <div class="grid grid-cols-2 cocteles mt-5">
+    <div>
+      <img class="simbolo-left" src="static/img/simbolos.png" alt="">
+      <img class="categoria right" width="90%" src="static/img/categorias/cocteles.jpg" alt="">
+    </div>
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Cocteles</h1>
+          <ul>
+          {{#each productos.cocteles}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    
+  </div>
+
+
+  <div class="grid grid-cols-2 cremosos mt-5">
+    
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Cremosos</h1>
+          <ul>
+          {{#each productos.cremosos}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+     <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="">
+      <img class="categoria" width="90%" src="static/img/categorias/cremosos.jpg" alt="">
+    </div>
+  </div>
+
+
+  <div class="grid grid-cols-2 destilados mt-5">
+    <div>
+      <img class="simbolo-left" src="static/img/simbolos.png" alt="">
+      <img class="categoria right" width="90%" src="static/img/categorias/piscola.png" alt="">
+    </div>
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Destilados</h1>
+          <ul>
+          {{#each productos.destilados}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    
+  </div>
+
+
+  <div class="grid grid-cols-2 gin mt-5">
+   
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Gin</h1>
+          <ul>
+          {{#each productos.gin}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="">
+      <img class="categoria" width="90%" src="static/img/categorias/gin.jpg" alt="">
+    </div>
+  </div>
+
+
+  <div class="grid grid-cols-2 shot mt-5">
+    <div>
+      <img class="simbolo-left" src="static/img/simbolos.png" alt="" style="margin-top: -15px;">
+      <img class="categoria right" width="70%" src="static/img/categorias/shot.jpg" alt="">
+    </div>
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Shot</h1>
+          <ul>
+          {{#each productos.shot}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    
+  </div>
+
+
+  <div class="grid grid-cols-2 vinos mt-5">
+    
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Vinos</h1>
+          <ul>
+          {{#each productos.vinos}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="" style="right: 30px;">
+      <img class="categoria" width="50%" src="static/img/categorias/vinos.jpg" alt="">
+    </div>
+  </div>
+
+  
+  <div class="grid grid-cols-2 tragossinalcohol mt-5">
+    <div>
+      <img class="simbolo-left" src="static/img/simbolos.png" alt="">
+      <img class="categoria" width="70%" src="static/img/categorias/tragossinalcohol.jpg" alt="">
+    </div>
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Tragos sin Alcohol</h1>
+          <ul>
+          {{#each productos.tragos_sin_alcohol}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    
+  </div>
+
+
+  <div class="grid grid-cols-2 sinalcohol mt-5">
+    
+    <div>
+        <h1 class="text-2xl font-bold mb-3">Sin Alcohol</h1>
+          <ul>
+          {{#each productos.sin_alcohol}}
+            <li class="text-sm">
+              <div class="grid grid-cols-4">
+                <div class="col-span-3 pr-2">{{this.nombre}}</div>
+                <div class="font-bold text-xs mt-1">${{this.precio}}</div>
+              </div>
+              <div class="text-indigo-600"><small>{{this.descripcion}}</small></div>
+            </li>
+          {{/each}}
+          </ul>
+    </div>
+    <div>
+      <img class="simbolo-right" src="static/img/simbolos2.png" alt="" style="right: 30px;">
+      <img class="categoria" width="70%" src="static/img/categorias/sinalcohol.jpg" alt="">
+    </div>
+  </div>
+
+
+
+</div> 
+
+<style>
+  .grid ul li{
+    list-style:disc;
+    width: 100%;
+  }
+
+  #menu{
+   width: 100%;
+   overflow-x:scroll;
+   position: fixed;
+   z-index: 99999;
+  }
+
+  #menu ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .categoria{
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  .categoria.right{
+    margin-left: -8px;
+  }
+
+  .simbolo-right
+  {
+    position: absolute;
+    width: 20%;
+    right: 10px;
+  }
+
+  .simbolo-left
+  {
+    position: absolute;
+    width: 20%;
+    left: 10px;
+  }
+</style>

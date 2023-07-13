@@ -1,0 +1,70 @@
+<script>
+$(document).ready(function(){
+   var width_cont_menu = 0;
+    $("#menu ul li").each(function(){
+        width_cont_menu += $(this).width()+21;
+    });
+    $("#menu #cont-menu").width(width_cont_menu);
+
+    $("#menu ul li").click(function ()
+    {
+        var seccion = $(this).data("to");
+        $('html, body').animate({
+            scrollTop: $("."+seccion).offset().top-70
+        });
+    });
+})
+</script>
+
+<div id="menu" class="shadow-md">
+  <div id="cont-menu">
+    <ul>
+      <li data-to="cafeteria" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Cafeteria</li>
+      <li data-to="hamburguesas" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Hamburguesas</li>
+      <li data-to="chorrillanas" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Chorrillanas</li>
+      <li data-to="papasfritas" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Papas Fritas</li>
+      <li data-to="tablas" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Tablas</li>
+      <li data-to="picoteo" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Picoteo</li>
+      <li data-to="pizzasmedianas" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Pizzas medianas</li>
+      <li data-to="ceviche" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Ceviche</li>
+      <li data-to="promocopete" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Promos copete 21:00</li>
+      <li data-to="tragos" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Tragos</li>
+      <li data-to="tragossinalcohol" class="float-left cursor-pointer separadorMenu pb-3 pt-3">Tragos sin alcohol</li>
+      <li data-to="sinalcohol" class="float-left cursor-pointer pb-3 pt-3">Sin alcohol</li>
+      <div class="clear-both"></div>
+    </ul>
+  </div>
+
+</div>
+
+<div>
+    <img class="img-menu" src="static/img/menutitle.png" width="50%" alt="">
+</div>
+
+<div>
+    <img class="logo" src="static/img/logo.png" width="30%" alt="">
+</div>
+{{> producto}}
+
+<style>
+    #menu{
+        background-color: white;
+        margin-top: -70px; 
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .separadorMenu{
+        border-right: solid 1px #3800ff;
+    }
+
+    .img-menu{
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+
+    .logo{
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+</style>

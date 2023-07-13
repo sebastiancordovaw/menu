@@ -1,0 +1,194 @@
+﻿ID;Categoría;Subcategoría;Código;Nombre;Descripción;Precio;Activo
+204;!4F;;;menú;;36990;Si
+10;Cafeteria;;;Te / Cafe;;1500;Si
+205;Ceviche;;;Ceviche salmon;;5500;Si
+151;Chorrillanas;;;Chorrillana Mar y Tierra;Papas fritas, Verduras, Todas las carnes + Mariscos surtidos;13990;Si
+158;Chorrillanas;;;Chorrillana Mexicana;Papas fritas, Guacamole, Nachos, Jalapeños;9990;Si
+11;Chorrillanas;;;Chorrillanas Cerdo.;Papas fritas, Carne cerdo, Chorizo, Cebolla caramelizada, Huevos Fritos;9990;Si
+12;Chorrillanas;;;Chorrillanas Pollo.;Papas fritas, Carne pollo, Chorizo, Cebolla caramelizada, Huevos Fritos;9990;Si
+13;Chorrillanas;;;Chorrillanas Vacuno.;Papas fritas, Carne vacuno, Chorizo, Cebolla caramelizada, Huevos Fritos;9990;Si
+14;Chorrillanas;;;Chorrillanas Vegana;Papas fritas, champiñón salteado,pimentón, zapallo italiano, cebolla caramelizada;9990;Si
+188;Chorrillanas;;;Chorrillana todas las carnes;vacuno,cerdo,pollo;11990;Si
+15;Hamburguesas;;;Hamburguesa Chacarera;Hamburguesa vacuno, Porotos verdes, Ají verde, Tomate y Mayonesa;7000;Si
+16;Hamburguesas;;;Hamburguesa Chacarera + Papas Fritas;Hamburguesa vacuno, Porotos verdes, Ají verde, Tomate, Mayonesa y Papas Fritas;7500;Si
+143;Hamburguesas;;;Hamburguesa Curicana;Hamburguesa vacuno, Porotos verdes, Ají verde, Tomate, Mayonesa y Papas Fritas;7500;No
+142;Hamburguesas;;;Hamburguesa Curicana + Papas Fritas;Hamburguesa de cerdo + más Hamburguesa de vacuno, queso cheddar,  cebolla morada, pepinillos, salsa, tocino, huevo frito.;8000;No
+17;Hamburguesas;;;Hamburguesa Gringa;Hamburguesa vacuno, Queso cheddar, Tocino, Aros de cebolla, Lechuga y Cebolla acaramelizada;7000;Si
+18;Hamburguesas;;;Hamburguesa Gringa + Papas Fritas;Hamburguesa vacuno, Queso cheddar, Tocino, Aros de cebolla, Lechuga, Cebolla acaramelizada y Papas Fritas;7500;Si
+19;Hamburguesas;;;Hamburguesa Italiana;Hamburguesa vacuno, Palta, Tomate y Mayonesa;7000;Si
+20;Hamburguesas;;;Hamburguesa Italiana + Papas Fritas;Hamburguesa vacuno, Palta, Tomate, Mayonesa y Papas Fritas;7500;Si
+147;Hamburguesas;;;Hamburguesa Jalapeña;Hamburguesa vacuno, Filete de pollo, Guacamole, Queso cheddar, Poroto verde;7500;No
+148;Hamburguesas;;;Hamburguesa Jalapeña + Papas Fritas;Hamburguesa vacuno, Filete de pollo, Guacamole, Queso cheddar, Poroto verde;8000;No
+21;Hamburguesas;;;Wistuburguer;Hamburguesa vacuno, Doble Queso cheddar, Tocino, Pepinillos, Tomate, Lechuga y cebolla;7500;Si
+22;Hamburguesas;;;Wistuburguer + Papas Fritas;Hamburguesa vacuno, Doble Queso cheddar, Tocino, Pepinillos, Tomate, Lechuga, cebolla y Papas Fritas;8000;Si
+42;Papas fritas;;;Chicken papas;Crema de pollo, Pollo y Papas fritas;9990;Si
+43;Papas fritas;;;Papas Fritas;;8000;Si
+44;Papas fritas;;;Papas gringas;Salsa blanca con queso, Cebollin y ciboulette;9990;Si
+45;Papas fritas;;;Papas vegetarianas;Champiñón, Cebollín, Ciboulette, Zapallo Italiano, Pimenton y Papas fritas;9990;Si
+201;Pizzas medianas;;;pizza con pollo;queso, pollo, champiñones, aceitunas, choclo, barbecue;8500;Si
+176;Pizzas medianas;;;Pizza española;Chorizo, Jamón, Tomate, Pimentón, Aceituna, Queso;8500;Si
+175;Pizzas medianas;;;Pizza española (3 personas);Chorizo, Jamón, Tomate, Pimentón, Aceituna, Queso;6700;No
+178;Pizzas medianas;;;Pizza napolitana;Tomate, Queso, Orégano, Aceituna, Jamón;8500;Si
+177;Pizzas medianas;;;Pizza napolitana (3 personas);Tomate, Queso, Orégano, Aceituna, Jamón;6700;No
+174;Pizzas medianas;;;Pizza pepperoni;Pepperoni, Jamón, Queso, Aceituna, Cebolla Morada;8500;Si
+180;Pizzas medianas;;;Pizza vegetariana;Tomate, Queso, Aceituna, Champiñón, Pimentón, Cebolla, Choclo;8500;Si
+202;Pizzas medianas;;;toques del mar;pollo, queso, mariscos, pimenton champiñones;9500;Si
+184;Promo fiestas patrias;;;Schop budweiser 18;;3000;Si
+182;Promo fiestas patrias;;;Terremoto 500cc;;3000;Si
+23;PROMOS COPETE 21:00;;;Aperol x2 Promo;valido 22:30 hrs;8000;No
+192;PROMOS COPETE 21:00;;;Mojito Cubano 500cc 2x;;6990;Si
+168;PROMOS COPETE 21:00;;;Mojito Cubano  LT 2x Promo;;13000;Si
+24;PROMOS COPETE 21:00;;;Mojito Cubano promo;valido 22:30 hrs;3500;No
+193;PROMOS COPETE 21:00;;;Mojito Sabores 500cc 2x;;7990;Si
+25;PROMOS COPETE 21:00;;;Mojito Sabores promo;valido 22:30 hrs;3500;No
+26;PROMOS COPETE 21:00;;;Promo Pisco 2x;valido 22:30 hrs;5990;Si
+27;PROMOS COPETE 21:00;;;Ramazotti x2 Promo;valido 22:30 hrs;8000;No
+191;PROMOS COPETE 21:00;;;Ramazzotti 2x;;8000;Si
+28;PROMOS COPETE 21:00;;;Tequila x5 Promo;valido 22:30 hrs;10000;Si
+29;Sin Alcohol;;;Agua Mineral con gas;;1300;Si
+30;Sin Alcohol;;;Agua Mineral sin gas;;1300;Si
+31;Sin Alcohol;;;Agua tonica Nordic 350;;1500;Si
+32;Sin Alcohol;;;Bebida express 237cc;;1400;Si
+33;Sin Alcohol;;;Coca Cola 350;;2000;Si
+34;Sin Alcohol;;;Ginger Ale Nordic 350;;1700;Si
+35;Sin Alcohol;;;Jugos naturales;;3300;Si
+36;Sin Alcohol;;;Limonada;;3200;Si
+197;Sin Alcohol;;;limonada menta jengibre;;3400;Si
+37;Sin Alcohol;;;Pepsi Zero 350;;2000;Si
+38;Sin Alcohol;;;Red Bull;;1900;Si
+40;Sin Alcohol;;;Red Bull Sandia;;3000;Si
+41;Sin Alcohol;;;Red Bull Tropical;;3000;Si
+107;Sushi;;;Arma tu sushi;10 piezas;5490;Si
+144;Sushi;;;salsa teriyaki;;700;Si
+113;Sushi;Envolturas;;Envoltura Ciboulette;;0;Si
+118;Sushi;Envolturas;;Envoltura Mango;;1890;Si
+114;Sushi;Envolturas;;Envoltura Nori;;0;Si
+115;Sushi;Envolturas;;Envoltura Palta;;1490;Si
+116;Sushi;Envolturas;;Envoltura Pepino;;1490;Si
+117;Sushi;Envolturas;;Envoltura Platano frito;;1490;Si
+108;Sushi;Envolturas;;Envoltura Salmon;;1690;Si
+112;Sushi;Envolturas;;Envoltura Sesamo;;0;Si
+111;Sushi;Envolturas;;Envoltura Tempura;;0;Si
+119;Sushi;Proteinas;;Camaron;;0;Si
+125;Sushi;Proteinas;;Camaron tempura;;600;Si
+124;Sushi;Proteinas;;Kanikama;;0;Si
+122;Sushi;Proteinas;;Pollo;;0;Si
+127;Sushi;Proteinas;;Pollo tempura 600;;0;Si
+120;Sushi;Proteinas;;Pollo Teriyaki;;600;Si
+123;Sushi;Proteinas;;Salmon;;0;Si
+126;Sushi;Proteinas;;Salmon tempura;;600;Si
+132;Sushi;Vegetales;;Aceituna;;0;Si
+129;Sushi;Vegetales;;Cebolla;;0;Si
+128;Sushi;Vegetales;;Cebollin;;0;Si
+134;Sushi;Vegetales;;Champiñon;;0;Si
+131;Sushi;Vegetales;;Choclo;;0;Si
+140;Sushi;Vegetales;;Cibulette;;0;Si
+138;Sushi;Vegetales;;Mango;;0;Si
+130;Sushi;Vegetales;;Palmito;;0;Si
+139;Sushi;Vegetales;;Palta;;0;Si
+135;Sushi;Vegetales;;Pepino;;0;Si
+133;Sushi;Vegetales;;Pimenton;;0;Si
+137;Sushi;Vegetales;;Platano;;0;Si
+136;Sushi;Vegetales;;Platano frito;;0;Si
+46;Tablas;;;Tabla campestre Filete de costillar;;14990;Si
+47;Tablas;;;Tabla campestre malaya;Malaya de Cerdo, Pebre, Papas fritas, Pan, sopaipilla, Anillos de cebolla;15900;No
+149;Tablas;;;Tabla del Mar;Papas fritas, Verduras, Mariscos surtidos al pilpil, Crema de leche;10000;No
+172;Tablas;;;Tabla Rústicas;Papas rústicas, con salteado de cerdo o pollo y arrollados primavera;14990;Si
+48;Tablas;;;Tabla tradicional;Papas fritas americana, nachos, Jamón, Queso, Salame, Maní, Galletas, Aceitunas, Frutas, Empanas de queso, Arrollado Primavera, Palmitos, Sopaipilla, Tomate cherry, Pepinillos, Palitos de ajo;14990;Si
+49;Tablas;;;Tabla tradicional mediana;Jamón, Queso, Salame, Maní, Galletas, Aceitunas, Frutas, Arrollado Primavera, Palmitos, Anillos de cebolla, Choclito, Tomate cherry, Pepinillos;9890;No
+195;Tablas;;;vegetariano y carne más tortillas;base de papas fritas, salteado verduras, salteado carnes, tortillas de verduras con queso y´carne queso;19990;Si
+181;Tablas de Picoteo;;;Picoteo;Empanaditas, Arrollados Primavera, sopaipillas, Aceitunas, Salsas;8990;Si
+207;Tragos;Cervezas;;artesanal serioous brewer;golden ale 5.5gl;4000;Si
+187;Tragos;Cervezas;;Austral Calafate;;3700;Si
+50;Tragos;Cervezas;;Base Chelada;sal - limon;800;Si
+51;Tragos;Cervezas;;Base Michelada;limon,sal,merken;800;Si
+200;Tragos;Cervezas;;base michelada tabasco y salsa inglesa;;1200;Si
+141;Tragos;Cervezas;;Botellin Austral Calafate;;3400;No
+54;Tragos;Cervezas;;Botellin Budweisser;;2800;Si
+52;Tragos;Cervezas;;Botellin heineken;;2800;Si
+53;Tragos;Cervezas;;Botellin Kunstmann miel;;3300;No
+159;Tragos;Cervezas;;Botellin Royal;;2500;No
+55;Tragos;Cervezas;;Botellin Torobayo;;3100;Si
+190;Tragos;Cervezas;;Cerveza 710cc Royal, Corona;;3899;Si
+160;Tragos;Cervezas;;Schop budweiser;;3300;Si
+194;Tragos;Cervezas;;schop kunstmann torobayo;;3500;Si
+199;Tragos;Cervezas;;torobayo kustman botellin 500cc;;3990;Si
+56;Tragos;Cocteles;;Amaretto sour;;4500;Si
+57;Tragos;Cocteles;;Aperol Spritz;;5000;Si
+58;Tragos;Cocteles;;Caipirinha;;7000;Si
+59;Tragos;Cocteles;;Caipiroska;;7000;Si
+61;Tragos;Cocteles;;Clavo oxidado;;5500;Si
+155;Tragos;Cocteles;;Daiquiri;;5200;Si
+62;Tragos;Cocteles;;Daiquiri Sabores;;5600;Si
+161;Tragos;Cocteles;;Electric lemonade 650cc;;5700;Si
+63;Tragos;Cocteles;;John Collins;;6500;Si
+203;Tragos;Cocteles;;limoneta Spritz;;4800;Si
+70;Tragos;Cocteles;;Pisco sour sabores 400cc;Frutilla, mango, maracuyá, piña, frambuesa.;6000;Si
+169;Tragos;Cocteles;;Pisco sour tradicional 250cc;;3000;Si
+170;Tragos;Cocteles;;Pisco sour tradicional 250 cc;;3000;Si
+71;Tragos;Cocteles;;Pisco Sour tradicional 400cc;;4500;Si
+72;Tragos;Cocteles;;Ramazzotti rosato spritz;;5500;Si
+171;Tragos;Cocteles;;Ramazzotti Sour 250cc;;3800;Si
+156;Tragos;Cocteles;;Ramazzotti Sour 400cc;;5500;Si
+157;Tragos;Cocteles;;Ramazzotti Sour Sabores 400cc;;6000;Si
+206;Tragos;Cocteles;;ramazzotti violetto spritz;;6000;Si
+73;Tragos;Cocteles;;Ruso Blanco;;6000;Si
+74;Tragos;Cocteles;;Ruso negro.;;6000;Si
+75;Tragos;Cocteles;;Tequila Margarita;;5200;Si
+64;Tragos;Cocteles;;Tequila Margarita Blue;;6000;Si
+154;Tragos;Cocteles;;Tequila Margarita Sabores;;5600;Si
+76;Tragos;Cocteles;;Tom Collins;;6500;Si
+77;Tragos;Cocteles;;Wisky Sour;;6000;Si
+121;Tragos;Cremosos;;Baileys;;5500;Si
+60;Tragos;Cremosos;;Chirimoya Alegre;;7000;No
+153;Tragos;Cremosos;;Piña colada 300cc;;5000;Si
+69;Tragos;Cremosos;;Piña colada 500cc;;6500;Si
+78;Tragos;Destilados;;Alto del carmen 40°;;5000;Si
+79;Tragos;Destilados;;Alto del carmen 40° + bebida;;5500;Si
+80;Tragos;Destilados;;Alto del carmen 40° + redbull;;6000;Si
+81;Tragos;Destilados;;Alto del carmen + Bebida;;3999;Si
+82;Tragos;Destilados;;Jack Daniels N7;;6500;Si
+83;Tragos;Destilados;;Jack Daniels N7 + bebida;;7500;Si
+84;Tragos;Destilados;;Jack Daniels N7 + Red Bull;;8000;Si
+85;Tragos;Destilados;;Johnnie Walker Red Label;;5500;Si
+86;Tragos;Destilados;;Johnnie Walker Red Label + Bebida;;6500;Si
+87;Tragos;Destilados;;Johnnie Walker Red Label + Red Bull;;7500;Si
+88;Tragos;Destilados;;Pisco Mistral . + bebida;;4000;Si
+89;Tragos;Destilados;;Pisco Mistral c/ redbull;;5000;Si
+90;Tragos;Destilados;;Pisco Mistral Nobel;;5000;No
+91;Tragos;Destilados;;Pisco Mistral Nobel + Bebida;;5500;No
+92;Tragos;Destilados;;Pisco Mistral Nobel + Redbull;;6000;No
+93;Tragos;Destilados;;Ron blanco Sierraa Morena c\ bebida;;4000;Si
+94;Tragos;Destilados;;Ron blanco Sierra morena;;3500;Si
+95;Tragos;Destilados;;Ron cacique negro;;5000;Si
+96;Tragos;Destilados;;Ron Cacique negro c/ bebida;;6000;Si
+97;Tragos;Destilados;;Vodka;;5000;Si
+162;Tragos;Gin;;Gin Beefeater Pink + Bebida;;6500;Si
+163;Tragos;Gin;;Gin Beefeater Pink + Red Bull;;7000;Si
+98;Tragos;Gin;;Gin Red bull Sandia;;6500;Si
+99;Tragos;Gin;;Gin Tonic;;6000;Si
+152;Tragos;Gin;;Gin Tropical;;6500;Si
+167;Tragos;Mojitos;;Mojito 2 Sabores 500cc;;6500;Si
+145;Tragos;Mojitos;;Mojito 2 sabores 700cc;;7000;Si
+146;Tragos;Mojitos;;Mojito 2 sabores Litro;;8500;Si
+65;Tragos;Mojitos;;Mojito Cerveza 700cc;;8000;Si
+165;Tragos;Mojitos;;Mojito Cubano 500cc;;5500;Si
+66;Tragos;Mojitos;;Mojito Cubano 700cc;;6000;Si
+109;Tragos;Mojitos;;Mojito Cubano de litro;;7000;Si
+110;Tragos;Mojitos;;Mojito de litro Sabores;;7500;Si
+196;Tragos;Mojitos;;mojito electric litro;;7500;Si
+198;Tragos;Mojitos;;mojito litro sabores 2x;;14000;Si
+68;Tragos;Mojitos;;Mojito Maracuyá 650cc;;6000;No
+166;Tragos;Mojitos;;Mojito Sabores 500cc;;6000;Si
+67;Tragos;Mojitos;;Mojito sabores 700cc;;6500;Si
+150;Tragos;Mojitos;;Moscow Mule Bad Bunny;;6900;Si
+100;Tragos;Shot;;Jagger;;3300;Si
+101;Tragos;Shot;;Tequila;;2700;Si
+102;Tragos;Shot;;Wistufire;;3500;Si
+189;Tragos;Vinos;;Borgoña 1L;;6500;Si
+186;Tragos;Vinos;;Borgoña 600cc;;4300;Si
+103;Tragos;Vinos;;Copa de Vino Correa albano;Cabernet sauvignon;3000;Si
+164;Tragos;Vinos;;Sangria 1 Lt.;;5990;Si
+104;Tragos sin alcohol;;;heineken sin alcohol 0.0;;3000;Si
+105;Tragos sin alcohol;;;Mojito cubano sin alcohol 650cc;;5000;Si
+106;Tragos sin alcohol;;;mojito sabores sin alcohol 650cc;;5500;Si
